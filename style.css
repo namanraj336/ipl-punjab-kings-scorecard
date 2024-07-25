@@ -1,0 +1,78 @@
+h1{
+    color: red;
+    position: sticky;
+    z-index: 1;
+}
+body{
+    background-color: rgb(20, 20, 20);
+}
+.card{
+    color: forestgreen;
+    border: 2px solid black;
+    
+    padding: 10px;
+    font-size: 25px;
+    width: 50vw;
+    /*display: flex;*/
+}
+h3{
+    color: rgba(0, 255, 255, 0.586);
+}
+#additional1{
+    color: whitesmoke;
+    margin-left: 0px;
+}
+#last{
+    color: wheat;
+}
+.all{
+    display: block;
+}
+    
+
+#additional{
+    
+    color: bisque;
+    width: 50vw;
+}
+#oppteam{
+    color: wheat; text-align: center;
+    margin-top: 50px;
+    font-size: 35px;
+    width: 50vw;   
+}
+#additional2{
+    text-align: center;
+    color: whitesmoke;
+    width: 50vw;
+}
+@keyframes pulse {
+    from, to {
+        scale: 1;;
+    }
+    50%{
+        scale: 1.08;
+    }
+}
+.card:hover > table {
+    animation: pulse 1000ms ease-in-out;
+}
+.matchesodd{
+   float: left;
+}
+.matcheseven{
+    float: left;
+}
+#title{
+    position: sticky;
+    z-index: 1;
+    top: 0;
+}
+/*footer{
+    position: fixed;
+    margin-top: 2%;
+    height: 50%;
+    width: 100%;
+    text-align: center;
+    bottom: 90%;
+}
